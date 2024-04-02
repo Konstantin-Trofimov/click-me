@@ -16,8 +16,6 @@
 </template>
 
 <script setup>
-import ChildComponent from './ChildComponent.vue'
-
 const props = defineProps({
   count: { type: Number, required: true },
   deep: { type: Number, default: 0 },
